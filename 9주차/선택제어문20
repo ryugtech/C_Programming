@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int input;
+
+    scanf("%d", &input);
+
+    if(input > 0)
+        printf("plus");
+    else if(input < 0)
+        printf("minus");
+    else
+        printf("zero");
+}
