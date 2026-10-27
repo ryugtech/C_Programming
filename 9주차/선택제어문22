@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int input;
+
+    scanf("%d", &input);
+
+    if(input == 1)
+        printf("dog");
+    else if(input == 2)
+        printf("cat");
+    else if(input == 3)
+        printf("chick");
+    else
+        printf("blank");
+}
