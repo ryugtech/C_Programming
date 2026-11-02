@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int input;
+
+    scanf("%d", &input);
+    
+    printf("%s", input % 2 == 0 ? "Even" : "Odd");
+}
